@@ -72,3 +72,11 @@ button {
   width: 220px;
   color: white;
 }
+
+.app-container {
+  min-height: 100vh;
+  background: 
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), /* optional dark overlay */
+    url('./assets/background.jpg') no-repeat center center; /* your image */
+  background-size: cover; /* make image cover whole screen */
+}
